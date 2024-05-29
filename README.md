@@ -16,5 +16,5 @@ The Bang & Olufsen Landing Page is a frontend project that incorporates various 
  - Stylelint: Linter for identifying and fixing problems in stylesheets.
 
 ## About
- - You can look at demo [here](https://illya-onyshchuk.github.io/bang-olufsen-landing/)
+ ### You can look at demo [here](https://illya-onyshchuk.github.io/bang-olufsen-landing/)
 
