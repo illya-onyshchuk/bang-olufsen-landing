@@ -2,9 +2,15 @@
   &__photo {
     width: 100%;
 
-    @include hover(transform, scale(1.05), linear);
-
     cursor: pointer;
+
+    @include on-tablet {
+      @include hover(transform, scale(1.05), linear);
+    }
+
+    @include on-desktop {
+      @include hover(transform, scale(1.05), linear);
+    }
   }
 
   &__title {
@@ -20,7 +26,7 @@
     margin-bottom: 12px;
   }
 
- &__price {
+  &__price {
     font-weight: 700;
   }
 }

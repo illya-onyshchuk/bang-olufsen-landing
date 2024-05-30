@@ -25,7 +25,7 @@
 }
 
 @mixin hover($property, $toValue, $transitopn-func) {
-  transition: #{$property} #{$transition-duration} #{transitopn-func};
+  transition: #{$property} #{$transition-duration} #{$transitopn-func};
 
   &:hover {
     #{$property}: $toValue;
@@ -43,9 +43,9 @@
     --columns: 6;
   }
 
- @include on-desktop {
-  --columns: 12;
- }
+  @include on-desktop {
+    --columns: 12;
+  }
 }
 
 @mixin button-genaral-style {
@@ -66,7 +66,13 @@
   cursor: pointer;
 
   &:hover {
-    background-color: $hover-color;
+    @include on-tablet {
+      background-color: $hover-color;
+    }
+
+    @include on-desktop {
+      background-color: $hover-color;
+    }
   }
 
   &:active {

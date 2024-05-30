@@ -31,9 +31,15 @@
     height: 100%;
     object-fit: cover;
 
-    @include hover(transform, scale(1.05), linear);
-
     cursor: pointer;
+
+    @include on-tablet {
+      @include hover(transform, scale(1.05), linear);
+    }
+
+    @include on-desktop {
+      @include hover(transform, scale(1.05), linear);
+    }
   }
 
   &__title {
@@ -52,7 +58,7 @@
   padding-top: 40px;
 
   @include on-tablet {
-  padding-top: 56px;
+    padding-top: 56px;
   }
 
   @include on-desktop {
