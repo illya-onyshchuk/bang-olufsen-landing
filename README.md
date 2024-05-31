@@ -1,5 +1,7 @@
 # Bang & Olufsen Landing Page
 
+ ### You can look at demo [here](https://illya-onyshchuk.github.io/bang-olufsen-landing/)
+
 ## Overvie
 
 The Bang & Olufsen Landing Page is a frontend project that incorporates various development tools and configurations to ensure a streamlined workflow. The setup includes HTML and CSS with Sass.
@@ -14,7 +16,3 @@ The Bang & Olufsen Landing Page is a frontend project that incorporates various 
  - Gulp: Task runner for automating development tasks.
  - ESLint: Linter for identifying and fixing problems in JavaScript code.
  - Stylelint: Linter for identifying and fixing problems in stylesheets.
-
-## About
- ### You can look at demo [here](https://illya-onyshchuk.github.io/bang-olufsen-landing/)
-
